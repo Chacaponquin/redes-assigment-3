@@ -1,7 +1,7 @@
 import argparse
 import sys
 
-from solution_gbn.core.Simulator import Simulator
+from solution_gbn.core import Simulator
 
 
 def report_config(sim: Simulator):
