@@ -8,11 +8,9 @@ class EntityA:
         self.utils = Utils(sim)
         self.trace = trace
 
-        # Configuration.
         self.seqnum_limit = seqnum_limit
         self.window_size = seqnum_limit//2
 
-        # State.
         self.base = 0
         self.layer3_pkts = []
         self.layer5_msgs = []
